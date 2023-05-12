@@ -31,7 +31,8 @@ body {
 
 .home_bg {
   background: #e6f3f8;
-  height: max-content;
+  height: 100vh;
+  overflow: auto;
 }
 
 .profile_pic {
@@ -133,3 +134,27 @@ hr {
   color: #fff;
   background-color: #00a0fa !important;
 }
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto;
+}
+
+
+
+/* practice */
+/* .splash{
+  cursor : pointer;
+  position : fixed;
+  top : 50%;
+  left : 50%;
+  height : 100%;
+  width : 100%;
+  transform : translate(-50%,-50%);    
+  background-color: rgba(0,0,0);
+  transition : all ease-in-out 600ms;
+}
+.hidden{
+  transition : 0.5s;
+  display : none;
+} */

@@ -1,0 +1,284 @@
+<div class="owl-carousel owl-theme">
+              <div class="item">
+                <!------------------------------------ Profile Card Started ----------------------------------->
+                <div class="mt-5 pt-5">
+                  <div class="card bg-white profile_card mx-4 shadow">
+                    <div class="profile_pic d-flex justify-content-center">
+                      <img
+                        src="/assets/images/Profile_Pic.png"
+                        class="card-img-top"
+                        alt="Profile Image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center m-0">Dan Vittorni</h5>
+                      <p class="card-text text-center m-0">
+                        Financial Advsor, Stockholm
+                      </p>
+  
+                      <div
+                        class="social-links d-flex justify-content-center gap-2"
+                      >
+                        <a href="#">
+                          <img
+                            src="/assets/images/instagram-logo.svg"
+                            class="ig-fluid"
+                            alt=""
+                          />
+                        </a>
+                        <a href="#">
+                          <img
+                            src="/assets/images/twitter-logo.svg"
+                            class="ig-fluid"
+                            alt=""
+                          />
+                        </a>
+                        <a href="#">
+                          <img
+                            src="/assets/images/facebook-logo.svg"
+                            class="ig-fluid"
+                            alt=""
+                          />
+                        </a>
+                        <a href="#">
+                          <img
+                            src="/assets/images/linkeidn-logo.svg"
+                            class="ig-fluid"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!------------------------------------- Profile Card Ended ------------------------------------->
+  
+                <!-------------------------------- Contact User Info Started ----------------------------------->
+  
+                <div class="mx-3 my-1">
+                  <div class="card rounded-pill px-3 shadow">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3">
+                        <div>
+                          <img
+                            src="/assets/images/globe-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <a href="#" class="text-decoration-none light-color"
+                            >www.danvitto.com</a
+                          >
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-3">
+                        <div>
+                          <img
+                            src="/assets/images/email-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <a
+                            href="mailto:info@danvitto.com"
+                            class="text-decoration-none light-color"
+                            >info@danvitto.com</a
+                          >
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-3">
+                        <div>
+                          <img
+                            src="/assets/images/map-marker-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <a href="#" class="text-decoration-none light-color"
+                            >H-72 Awami Villas Block D
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!------------------------------------- Contact User Info Ended -------------------------------->
+  
+                <!------------------------------------ Currency Section Started -------------------------------->
+  
+                <div class="card rounded-pill px-3 mx-5 shadow">
+                  <div class="card-body">
+                    <div class="d-flex gap-2 justify-content-center">
+                      <div>
+                        <img src="/assets/images/$-currency.svg" alt="" />
+                      </div>
+                      <div>
+                        <img src="/assets/images/z-currency.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <!------------------------------------- Currency Section Ended ----------------------------->
+  
+                <!----------------------------------- Centeralized Section Started ------------------------->
+                <div class="d-flex justify-content-center my-2">
+                  <img src="/assets/images/blue-logo.svg" alt="" />
+                </div>
+                <h5 class="blue-color text-center m-0 blue_heading mt-5">
+                  centralize
+                </h5>
+                <p class="blue-color text-center m-0">your online presence</p>
+                <div class="d-grid gap-2 my-3 mx-3">
+                  <a href="./login.html">
+                    <button
+                      class="btn w-100 bg-blue-color text-white py-2 rounded-pill shadow"
+                      type="button"
+                    >
+                      Login
+                    </button>
+                  </a>
+                  <a href="./signup.html">
+                    <button
+                      class="btn w-100 bg-white py-2 rounded-pill shadow"
+                      type="button"
+                    >
+                      Sign up
+                    </button>
+                  </a>
+                </div>
+                <!----------------------------------- Centeralized Section Ended --------------------------->
+              </div>
+              <div class="item">
+                <div class="second">
+                  <div class="d-flex justify-content-center">
+                    <img src="/assets/images/circle-logo.png" alt="" />
+                  </div>
+                  <div class="pt-3">
+                    <input
+                      type="text"
+                      class="rounded-pill form-control text-center py-3 shadow"
+                      placeholder="lvsr.io/#Dan Vittorni"
+                    />
+                  </div>
+                  <!------------------------------ Streamline Heading Section Started ---------------------->
+  
+                  <h5 class="blue-color text-center m-0 blue_heading pt-5">
+                    streamline
+                  </h5>
+                  <p class="blue-color text-center m-0 pb-4">
+                    your network process
+                  </p>
+                  <div class="d-grid gap-2 my-3 mx-3">
+                    <a href="./login.html">
+                      <button
+                        class="btn w-100 bg-blue-color text-white py-2 rounded-pill shadow"
+                        type="button"
+                      >
+                        Login
+                      </button>
+                    </a>
+                    <a href="./signup.html">
+                      <button
+                        class="btn w-100 bg-white py-2 rounded-pill shadow"
+                        type="button"
+                      >
+                        Sign up
+                      </button>
+                    </a>
+                  </div>
+                  <!---------------------------- Streamline Heading Section Ended -------------------------->
+                </div>
+              </div>
+              <div class="item">
+                <div class="third">
+                  <div class="d-flex justify-content-center">
+                    <img src="/assets/images/qr-code.png" alt="" />
+                  </div>
+                  <p class="text-center">or</p>
+                  <div class="input-group mb-3 position-relative">
+                    <input
+                      type="text"
+                      class="form-control rounded-pill py-3"
+                      placeholder="Link sharing with friends"
+                      aria-label="Recipient's username"
+                      aria-describedby="button-addon2"
+                    />
+                    <button
+                      class="position-absolute bg-dark text-white border-0 btn-share"
+                    >
+                      Share
+                    </button>
+                  </div>
+                  <!------------------------------ Streamline Heading Section Started ---------------------->
+  
+                  <h5 class="blue-color text-center m-0 blue_heading pt-5">
+                    boost your
+                  </h5>
+                  <p class="blue-color text-center m-0 pb-4">
+                    meet and great efficiency
+                  </p>
+                  <div class="d-grid gap-2 my-3 mx-3">
+                    <a href="./login.html">
+                      <button
+                        class="btn w-100 bg-blue-color text-white py-2 rounded-pill shadow"
+                        type="button"
+                      >
+                        Login
+                      </button>
+                    </a>
+                    <a href="./signup.html">
+                      <button
+                        class="btn w-100 bg-white py-2 rounded-pill shadow"
+                        type="button"
+                      >
+                        Sign up
+                      </button>
+                    </a>
+                  </div>
+                  <!---------------------------- Streamline Heading Section Ended -------------------------->
+                </div>
+              </div>
+              <div class="item">
+                <div class="forth">
+                  <div class="d-flex justify-content-center">
+                    <img
+                      src="/assets/images/MoneyIcon .png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+  
+                  <!------------------------------ Streamline Heading Section Started ---------------------->
+  
+                  <h5 class="blue-color text-center m-0 blue_heading pt-1">
+                    all payments
+                  </h5>
+                  <p class="blue-color text-center m-0 pb-4">
+                    options at one place
+                  </p>
+                  <div class="d-grid gap-2 my-3 mx-3">
+                    <a href="./login.html">
+                      <button
+                        class="btn w-100 bg-blue-color text-white py-2 rounded-pill shadow"
+                        type="button"
+                      >
+                        Login
+                      </button>
+                    </a>
+                    <a href="./signup.html">
+                      <button
+                        class="btn w-100 bg-white py-2 rounded-pill shadow"
+                        type="button"
+                      >
+                        Sign up
+                      </button>
+                    </a>
+                  </div>
+                  <!---------------------------- Streamline Heading Section Ended -------------------------->
+                </div>
+              </div>
+            </div>
