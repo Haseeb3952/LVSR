@@ -82,6 +82,12 @@ body {
   font-weight: 900;
 }
 
+.btn-share {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
 .white-small-circle {
   height: 25px;
   width: 25px;
