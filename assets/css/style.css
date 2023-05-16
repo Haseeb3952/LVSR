@@ -202,3 +202,11 @@ hr {
 .stepper:active {
   background-color: #00a0fa;
 }
+
+.modal-dialog {
+  position: fixed;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: 0;
+}
