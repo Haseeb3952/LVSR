@@ -20,14 +20,7 @@ body {
   background-color: #00a0fa;
 }
 
-.splash_screen {
-  background: #00a0fa;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .home_bg {
   background: #e6f3f8;
