@@ -211,6 +211,24 @@ hr {
   bottom: 0;
 }
 
-.small-blue-circle {
-  margin-bottom: -40px !important;
+.small_rounded_circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.small_rounded_circle > img {
+  width: 44px;
+  height: 44px;
+}
+
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 0rem 1rem !important;
+  overflow-y: auto;
+}
+.offcanvas-body2 {
+  flex-grow: 1;
+  padding: 0rem 0rem !important;
+  overflow-y: auto;
 }
