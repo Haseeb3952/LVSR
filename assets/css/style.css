@@ -210,3 +210,7 @@ hr {
   left: auto;
   bottom: 0;
 }
+
+.small-blue-circle {
+  margin-bottom: -40px !important;
+}
