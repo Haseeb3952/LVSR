@@ -20,6 +20,24 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
 
+    <!-------------- OWL -------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS Link -->
+
     <link rel="stylesheet" href="/assets/css/style.css" />
 
     <title>Change Background Screen</title>
@@ -30,12 +48,6 @@
         <div class="col-12 col-md-4 p-0">
           <div class="home_bg pt-5">
             <div class="pt-5">
-              <div class="">
-                <div>
-                  <img src="" alt="" />
-                </div>
-                <div></div>
-              </div>
               <div class="card bg-white profile_card mx-4 shadow">
                 <div class="profile_pic d-flex justify-content-center">
                   <img
@@ -91,24 +103,25 @@
                       />
                     </a>
                   </div>
-                  <div class="text-center pt-3 px-3">
+
+                  <div class="d-flex justify-content-center my-3">
                     <button
-                      class="btn w-100 py-3 border rounded-pill"
+                      class="btn btn-primary rounded-pill"
                       type="button"
                       data-bs-toggle="offcanvas"
                       data-bs-target="#offcanvasBottom"
                       aria-controls="offcanvasBottom"
                     >
-                      Change Background Style
+                      Background
                     </button>
                     <button
-                      class="btn w-100 py-3 my-1 border rounded-pill"
+                      class="btn btn-primary rounded-pill"
                       type="button"
                       data-bs-toggle="offcanvas"
-                      data-bs-target="#offcanvasBottom2"
+                      data-bs-target="#offcanvasBottom"
                       aria-controls="offcanvasBottom"
                     >
-                      Change Button Style
+                      Button
                     </button>
 
                     <div
@@ -116,282 +129,130 @@
                       tabindex="-1"
                       id="offcanvasBottom"
                       aria-labelledby="offcanvasBottomLabel"
-                      style="height: calc(100vh - 40.5vh)"
                     >
-                      <div class="container p-0">
-                        <div class="row d-flex justify-content-center">
-                          <div class="col-12 col-md-4 p-3">
-                            <div class="offcanvas-header">
-                              <h5
-                                class="offcanvas-title mx-auto"
-                                id="offcanvasBottomLabel"
-                              >
-                                Change Background
-                              </h5>
-                              <button
-                                type="button"
-                                class="btn-close border rounded-circle p-3 shadow text-reset"
-                                data-bs-dismiss="offcanvas"
-                                aria-label="Close"
-                              ></button>
+                      <div class="offcanvas-header">
+                        <h5
+                          class="offcanvas-title"
+                          id="offcanvasBottomLabel"
+                        ></h5>
+                        <button
+                          type="button"
+                          class="btn-close text-reset border rounded-circle"
+                          data-bs-dismiss="offcanvas"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="offcanvas-body small">
+                        <h6 class="text-center">Change Background</h6>
+                        <p class="light-color text-center">
+                          pick free background Color and some paid
+                        </p>
+
+                        <!-- Background Carousal -->
+
+                        <div class="owl-carousel owl-theme">
+                          <div class="item">
+                            <div class="box bg-primary p-4 text-center rounded">
+                              Blue
                             </div>
-                            <div class="offcanvas-body small">
-                              <div class="d-flex justify-content-between">
+                          </div>
+                          <div class="item">
+                            <div class="box bg-danger p-4 text-center rounded">
+                              Red
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="box bg-success p-4 text-center rounded">
+                              Green
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="box bg-warning p-4 text-center rounded">
+                              Yellow
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="box rounded">
+                              <div class="custom-bg-image">
+                                <img
+                                  src="/assets/images/background.jpg"
+                                  alt=""
+                                  class="img-fluid rounded position-relative"
+                                />
                                 <div
-                                  class="bg-circle bg-primary p-4 rounded-circle"
-                                ></div>
-                                <div
-                                  class="bg-circle shadow bg-white border p-4 rounded-circle"
-                                ></div>
-                                <div
-                                  class="bg-circle bg-dark shadow p-4 rounded-circle"
-                                ></div>
-                                <div
-                                  class="bg-circle shadow bg-white p-2 rounded-circle d-flex justify-content-center align-items-center position-relative"
+                                  class="position-absolute me-2 top-0 end-0 text-primary bg-white rounded-circle"
                                 >
-                                  Image
-                                  <div
-                                    class="position-absolute bg-dark text-white rounded-circle top-0 end-0"
-                                  >
-                                    pro
-                                  </div>
-                                </div>
-                              </div>
-                              <p class="text-center text-dark my-4">
-                                Background Templates
-                              </p>
-                              <div class="d-flex justify-content-between px-3">
-                                <div class="bg-circle rounded-circle">
-                                  <img
-                                    src="/assets/images/bg-template-1.svg"
-                                    alt=""
-                                  />
-                                </div>
-                                <div class="bg-circle border rounded-circle">
-                                  <img
-                                    src="/assets/images/bg-template-2.svg"
-                                    alt=""
-                                  />
-                                </div>
-                                <div class="bg-circle rounded-circle">
-                                  <img
-                                    src="/assets/images/bg-template-2.svg"
-                                    alt=""
-                                  />
-                                </div>
-                                <div class="bg-circle rounded-circle">
-                                  <img
-                                    src="/assets/images/bg-template-2.svg"
-                                    alt=""
-                                  />
-                                </div>
-                              </div>
-                              <p class="text-center text-dark my-4">
-                                Link Button Customization
-                              </p>
-                              <div class="d-flex justify-content-between px-5">
-                                <div class="bg-circle rounded-circle">
-                                  <a href="#">
-                                    <img
-                                      src="/assets/images/fb-icon-1.svg"
-                                      alt=""
-                                    />
-                                  </a>
-                                </div>
-                                <div class="bg-circle border rounded-circle">
-                                  <a href="#">
-                                    <img
-                                      src="/assets/images/fb-icon-2.svg"
-                                      alt=""
-                                    />
-                                  </a>
-                                </div>
-                                <div class="bg-circle rounded-circle">
-                                  <a href="#">
-                                    <img
-                                      src="/assets/images/fb-icon-3.svg"
-                                      alt=""
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <div class="container px-0">
-                                <div
-                                  class="row shadow mt-5"
-                                  style="
-                                    border-radius: 45px 45px 0px 0px;
-                                    box-shadow: 0px 4px 24px -2px #0000001a;
-                                  "
-                                >
-                                  <div
-                                    class="col-3 p-0 d-flex justify-content-center"
-                                  >
-                                    <div class="text-center pt-3">
-                                      <img
-                                        src="/assets/images/link.png"
-                                        class="img-fluid"
-                                        alt=""
-                                      />
-                                      <p class="light-color">My Links</p>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="col-6 p-0 d-flex justify-content-center"
-                                    style="margin-top: -32px"
-                                  >
-                                    <div class="">
-                                      <div
-                                        class="small_rounded_circle bg-primary d-flex justify-content-center align-items-center mx-auto"
-                                      >
-                                        <img
-                                          src="/assets/images/blend-tool.png"
-                                          class="img-fluid"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <p class="light-color text-center">
-                                        Appearance template
-                                      </p>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="col-3 p-0 d-flex justify-content-center"
-                                  >
-                                    <div class="text-center pt-3">
-                                      <img
-                                        src="/assets/images/analysis.png"
-                                        class="img-fluid"
-                                        alt=""
-                                      />
-                                      <p class="light-color">Analytic</p>
-                                    </div>
-                                  </div>
+                                  Pro
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Second OffCanvas -->
-
-    <div
-      class="offcanvas offcanvas-bottom"
-      tabindex="-1"
-      id="offcanvasBottom2"
-      aria-labelledby="offcanvasBottomLabel"
-      style="height: calc(100vh - 35vh)"
-    >
-      <div class="container p-0">
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 col-md-4 p-3">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-                Button Style and Color
-              </h5>
-              <button
-                type="button"
-                class="btn-close text-reset border rounded-circle p-3 shadow"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body2 small p-0">
-              <div class="px-3">
-                <p class="text-center">Color</p>
-                <div class="d-flex justify-content-between px-3">
-                  <div class="bg-circle bg-primary p-4 rounded-circle"></div>
-                  <div
-                    class="bg-circle shadow bg-white border p-4 rounded-circle"
-                  ></div>
-                  <div class="bg-circle bg-dark p-4 rounded-circle"></div>
-                  <div
-                    class="bg-circle shadow bg-white p-2 rounded-circle d-flex justify-content-center align-items-center position-relative"
-                  >
-                    Image
-                    <div
-                      class="position-absolute bg-dark text-white rounded-circle top-0 end-0"
-                    >
-                      pro
-                    </div>
-                  </div>
-                </div>
-                <p class="text-center text-dark my-4">Button Style</p>
-                <div class="d-flex justify-content-between px-3 gap-2">
-                  <button
-                    class="btn btn-white border px-5 py-3 rounded-3"
-                    type="submit"
-                  ></button>
-                  <button
-                    class="btn btn-white border px-5 py-3"
-                    type="submit"
-                  ></button>
-                  <button
-                    class="btn btn-white border px-5 py-3 rounded-pill"
-                    type="submit"
-                  ></button>
-                </div>
-                <p class="text-center text-dark my-4">Fonts Style</p>
-                <div class="d-flex justify-content-between px-2">
-                  <div class="p-3 border rounded-circle">Font</div>
-                  <div class="p-3 border rounded-circle">Font</div>
-                  <div class="p-3 border rounded-circle">Font</div>
-                  <div class="p-3 border rounded-circle">Font</div>
-                </div>
-                <div class="container px-0">
-                  <div
-                    class="row shadow mt-5"
-                    style="
-                      border-radius: 45px 45px 0px 0px;
-                      box-shadow: 0px 4px 24px -2px #0000001a;
-                    "
-                  >
-                    <div class="col-3 p-0 d-flex justify-content-center">
-                      <div class="text-center pt-3">
-                        <img
-                          src="/assets/images/link.png"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <p class="light-color">My Links</p>
-                      </div>
-                    </div>
-                    <div
-                      class="col-6 p-0 d-flex justify-content-center"
-                      style="margin-top: -32px"
-                    >
-                      <div class="">
-                        <div
-                          class="small_rounded_circle bg-primary d-flex justify-content-center align-items-center mx-auto"
-                        >
-                          <img
-                            src="/assets/images/blend-tool.png"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <p class="light-color text-center">
-                          Appearance template
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-3 p-0 d-flex justify-content-center">
-                      <div class="text-center pt-3">
-                        <img
-                          src="/assets/images/analysis.png"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <p class="light-color">Analytic</p>
+                        <footer class="shadow-lg mt-3">
+                          <div class="row d-flex justify-content-center pt-3">
+                            <div class="col-3">
+                              <div class="text-center">
+                                <a
+                                  href="/assets/pages/AddLinks.html"
+                                  class="text-decoration-none"
+                                >
+                                  <img
+                                    src="/assets/images/link-tab.svg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                  <p class="light-color">Links</p>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <div class="text-center">
+                                <a
+                                  href="/assets/pages/ChangeBackground.html"
+                                  class="text-decoration-none"
+                                >
+                                  <img
+                                    src="/assets/images/visual-tab.svg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                  <p class="light-color">Visuals</p>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <div class="text-center">
+                                <a
+                                  href="/assets/pages/insight.html"
+                                  class="text-decoration-none"
+                                >
+                                  <img
+                                    src="/assets/images/insight-tab.svg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                  <p class="light-color">Insights</p>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <div class="text-center">
+                                <a
+                                  href="/assets/pages/AddLinks.html"
+                                  class="text-decoration-none"
+                                >
+                                  <img
+                                    src="/assets/images/more-tab.svg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                  <p class="light-color">More</p>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </footer>
                       </div>
                     </div>
                   </div>
@@ -411,6 +272,47 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!---------------- OWL -------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        arrow: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        stagePadding: 0,
+        responsive: {
+          0: {
+            items: 3,
+          },
+          600: {
+            items: 3,
+          },
+
+          1000: {
+            items: 3,
+          },
+          1400: {
+            items: 3,
+          },
+        },
+      });
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

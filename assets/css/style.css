@@ -20,8 +20,6 @@ body {
   background-color: #00a0fa;
 }
 
-
-
 .home_bg {
   background: #e6f3f8;
   height: 100vh;
@@ -40,7 +38,7 @@ body {
 }
 
 .profile_card {
-  border-radius: 45px;
+  border-radius: 30px;
 }
 
 .blue_heading {
@@ -224,4 +222,26 @@ hr {
   flex-grow: 1;
   padding: 0rem 0rem !important;
   overflow-y: auto;
+}
+
+.custom-bg-image {
+  height: 68px;
+  width: 100px;
+}
+
+.custom-bg-image img {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  border-radius: 45px 45px 0px 0px;
+}
+
+.insight-pic {
+  margin-top: -50px;
+}
+
+.insight-box {
+  border-radius: 20px;
 }
