@@ -213,7 +213,7 @@ hr {
   height: 44px;
 }
 
-.offcanvas-body {
+/* .offcanvas-body {
   flex-grow: 1;
   padding: 0rem 1rem !important;
   overflow-y: auto;
@@ -222,7 +222,7 @@ hr {
   flex-grow: 1;
   padding: 0rem 0rem !important;
   overflow-y: auto;
-}
+} */
 
 .custom-bg-image {
   height: 68px;
@@ -244,4 +244,37 @@ footer {
 
 .insight-box {
   border-radius: 20px;
+}
+
+.share-to-people {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.share-to-people img {
+  height: 100%;
+  width: 100%;
+}
+
+.offcanvas {
+  height: auto;
+}
+
+.offcanvas-border-top {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.modal-border {
+  border-radius: 31px;
+}
+
+.share-link-picture {
+  height: 40px;
+  width: 40px;
+}
+
+.share-link-picture img {
+  height: 100%;
+  width: 100%;
 }

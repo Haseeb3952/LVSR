@@ -118,26 +118,28 @@
                       class="btn btn-primary rounded-pill"
                       type="button"
                       data-bs-toggle="offcanvas"
-                      data-bs-target="#offcanvasBottom"
+                      data-bs-target="#offcanvasBottomButton"
                       aria-controls="offcanvasBottom"
                     >
                       Button
                     </button>
 
+                    <!-- Off Canvas Baclground -->
+
                     <div
-                      class="offcanvas offcanvas-bottom"
+                      class="offcanvas offcanvas-bottom offcanvas-border-top"
                       tabindex="-1"
                       id="offcanvasBottom"
                       aria-labelledby="offcanvasBottomLabel"
                     >
-                      <div class="offcanvas-header">
+                      <div class="offcanvas-header p-0">
                         <h5
                           class="offcanvas-title"
                           id="offcanvasBottomLabel"
                         ></h5>
                         <button
                           type="button"
-                          class="btn-close text-reset border rounded-circle"
+                          class="btn-close text-reset border rounded-circle m-3"
                           data-bs-dismiss="offcanvas"
                           aria-label="Close"
                         ></button>
@@ -150,7 +152,7 @@
 
                         <!-- Background Carousal -->
 
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme pb-5">
                           <div class="item">
                             <div class="box bg-primary p-4 text-center rounded">
                               Blue
@@ -188,72 +190,240 @@
                             </div>
                           </div>
                         </div>
+                      </div>
+                      <footer class="shadow-lg mt-3">
+                        <div class="row d-flex justify-content-center pt-3">
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/AddLinks.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/link-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">Links</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/ChangeBackground.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/visual-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">Visuals</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/insight.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/insight-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">Insights</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/AddLinks.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/more-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">More</p>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </footer>
+                    </div>
 
-                        <footer class="shadow-lg mt-3">
-                          <div class="row d-flex justify-content-center pt-3">
-                            <div class="col-3">
-                              <div class="text-center">
-                                <a
-                                  href="/assets/pages/AddLinks.html"
-                                  class="text-decoration-none"
-                                >
-                                  <img
-                                    src="/assets/images/link-tab.svg"
-                                    class="img-fluid"
-                                    alt=""
-                                  />
-                                  <p class="light-color">Links</p>
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-3">
-                              <div class="text-center">
-                                <a
-                                  href="/assets/pages/ChangeBackground.html"
-                                  class="text-decoration-none"
-                                >
-                                  <img
-                                    src="/assets/images/visual-tab.svg"
-                                    class="img-fluid"
-                                    alt=""
-                                  />
-                                  <p class="light-color">Visuals</p>
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-3">
-                              <div class="text-center">
-                                <a
-                                  href="/assets/pages/insight.html"
-                                  class="text-decoration-none"
-                                >
-                                  <img
-                                    src="/assets/images/insight-tab.svg"
-                                    class="img-fluid"
-                                    alt=""
-                                  />
-                                  <p class="light-color">Insights</p>
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-3">
-                              <div class="text-center">
-                                <a
-                                  href="/assets/pages/AddLinks.html"
-                                  class="text-decoration-none"
-                                >
-                                  <img
-                                    src="/assets/images/more-tab.svg"
-                                    class="img-fluid"
-                                    alt=""
-                                  />
-                                  <p class="light-color">More</p>
-                                </a>
+                    <!-- Off Canvas Button -->
+
+                    <div
+                      class="offcanvas offcanvas-bottom offcanvas-border-top"
+                      tabindex="-1"
+                      id="offcanvasBottomButton"
+                      aria-labelledby="offcanvasBottomLabel"
+                    >
+                      <div class="offcanvas-header p-0">
+                        <h5
+                          class="offcanvas-title"
+                          id="offcanvasBottomLabel"
+                        ></h5>
+                        <button
+                          type="button"
+                          class="btn-close text-reset border rounded-circle m-3"
+                          data-bs-dismiss="offcanvas"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="offcanvas-body small">
+                        <h6 class="text-center">Change Button Colors</h6>
+                        <p class="light-color text-center">
+                          pick free background Color and some paid
+                        </p>
+
+                        <!-- Background Carousal -->
+
+                        <div class="owl-carousel owl-theme pb-5">
+                          <div class="item">
+                            <div
+                              class="box bg-primary py-2 text-center rounded-pill"
+                            >
+                              <div class="d-flex justify-content-center">
+                                <img
+                                  src="/assets/images/tick-mark.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
                               </div>
                             </div>
                           </div>
-                        </footer>
+                          <div class="item">
+                            <div
+                              class="box bg-danger py-4 text-center rounded-pill"
+                            ></div>
+                          </div>
+                          <div class="item">
+                            <div
+                              class="box bg-success py-4 text-center rounded-pill"
+                            ></div>
+                          </div>
+                          <div class="item">
+                            <div
+                              class="box bg-warning py-4 text-center rounded-pill position-relative"
+                            >
+                              <div
+                                class="position-absolute top-0 end-0 p-1 bg-white rounded-circle m-1"
+                              >
+                                Pro
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="owl-carousel owl-theme pb-5">
+                          <div class="item">
+                            <div class="border border-2 rounded-pill">
+                              <p
+                                class="d-flex justify-content-center align-items-center m-0 py-3"
+                              >
+                                Style 1
+                              </p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="border border-2 rounded-pill">
+                              <p
+                                class="d-flex justify-content-center align-items-center m-0 py-3"
+                              >
+                                Style 2
+                              </p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="border border-2 rounded-pill">
+                              <p
+                                class="d-flex justify-content-center align-items-center m-0 py-3"
+                              >
+                                Style 3
+                              </p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="border border-2 rounded-pill">
+                              <p
+                                class="d-flex justify-content-center align-items-center m-0 py-3"
+                              >
+                                Style 4
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+                      <footer class="shadow-lg mt-3">
+                        <div class="row d-flex justify-content-center pt-3">
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/AddLinks.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/link-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">Links</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/ChangeBackground.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/visual-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">Visuals</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/insight.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/insight-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">Insights</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="text-center">
+                              <a
+                                href="/assets/pages/AddLinks.html"
+                                class="text-decoration-none"
+                              >
+                                <img
+                                  src="/assets/images/more-tab.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <p class="light-color">More</p>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </footer>
                     </div>
                   </div>
                 </div>
